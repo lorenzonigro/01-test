@@ -5,11 +5,33 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <h1>Lorenzo Nigro</h1>
-        <h3>Studente a Immaginazione e Lavoro</h3>
+        <div class="quadrato bgVerde" id="quadrato"></div>
+        <button id="pulsante" style="margin-bottom: 2vh;">Clicca qui</button>
 
-        <p>Questo è un sito di prova</p>
+        <p id="nome"></p>
+        <p id="cognome"></p>
+        <p id="eta"></p>
+        <p id="casa"></p>
+        
+        <label>
+            Nome:
+            <input type="text" id="inputNome">
+        </label>
+        <label>
+            Cognome:
+            <input type="text" id="inputCognome">
+        </label>
+        <label>
+            Età:
+            <input type="text" id="inputEta">
+        </label>
+        <label>
+            Residenza:
+            <input type="text" id="inputCasa">
+        </label>
 
-        <button>Clicca qui</button>
+        <button id="pulsanteDati" style="margin-left: 2vh;">Aggiorna dati</button>
+
+        <script src="./script.js"></script>
     </body>
 </html>
